@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Shared Style */
+.display-flex {
+  display: flex;
+}
+.center {
+  justify-content: space-between;
+  align-items: center;
+}
+.orange {
+  color: #e95a08;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* nav style */
+
+.navbar {
+  max-width: 1140px;
+  margin: 30px auto 120px auto;
+}
+
+.list-container {
+  gap: 48px;
+}
+.list-item {
+  list-style: none;
+}
+
+.list-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 400px;
+}
+.home {
+  color: #252432;
+  font-weight: 700px;
+}
+.color-1 {
+  color: #8987a1;
+}
+
+/* banner style */
+
+.banner {
+  max-width: 1140px;
+  margin: 125px auto 120px auto;
+}
+.banner-content {
+  margin: 105px auto 0 0;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+.banner-description {
+  width: 570px;
+  margin-bottom: 0px;
+}
+.banner-img-container {
+  width: 100%;
+}
+.banner-img {
+  display: block;
+}
+
+/* Responsive for mobile  */
+
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* navbar style */
+  .navbar {
+    width: 100%;
+    margin: 13px auto 28px auto;
+  }
+  .list-item {
+    font-size: 0.9rem;
+  }
+  .list-container {
+    gap: 0;
+    padding: 0;
+  }
+  .brand-name {
+    width: 70%;
+  }
+  .home,
+  .color-1 {
+    display: none;
+  }
+  /* banner style */
+  .banner {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .banner-img {
+    width: 100%;
+    order: 1;
+  }
+  .banner-content {
+    margin: 28px auto;
+    order: 2;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-description {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
