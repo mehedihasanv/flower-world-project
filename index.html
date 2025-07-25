@@ -33,7 +33,7 @@
         </ul>
       </nav>
       <!-- banner section-->
-      <div class="banner display-flex center">
+      <section class="banner display-flex center">
         <div class="banner-content">
           <h3 class="banner-title noto-serif">
             ALWAYS <span class="orange"> FRESH <br />FLOWERS </span>
@@ -47,11 +47,11 @@
         <div class="Banner-img-container">
           <img src="./assets/hero-flower.png" alt="" class="banner-img" />
         </div>
-      </div>
+      </section>
     </header>
     <main>
       <!--our plants section-->
-      <div class="our-plants">
+      <section class="our-plants">
         <div class="our-plants-content">
           <h3 class="our-plants-title noto-serif">
             <span class="orange">Our</span> Plants
@@ -144,9 +144,9 @@
             <button class="plant-btn inter">ADD TO CART</button>
           </div>
         </div>
-      </div>
+      </section>
       <!--plants lover section-->
-      <div class="plants-lover display-flex">
+      <section class="plants-lover display-flex">
         <div class="plants-lover-img-container">
           <img
             src="./assets/flower-store.png"
@@ -179,8 +179,94 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
+      <!--Deal section with tailwind-->
+      <section class="deals-section">
+        <h3 class="deals-heading"><span class="orange">Latest</span> Deals</h3>
+        <p class="deals-subtitle">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+        <div class="deals-container">
+          <div class="left-column">
+            <div
+              class="deal-card small"
+              style="background-image: url('./assets/deal-bloom.png')"
+            >
+              <div class="deal-content-bloom">
+                <h3 class="bloom">60% Off | Bloom Plant</h3>
+                <a href="" class="text">Shop Now</a>
+              </div>
+            </div>
+
+            <div
+              class="deal-card small"
+              style="background-image: url('./assets/deal-ana.png')"
+            >
+              <div class="deal-content-ana">
+                <h3 class="ana">30% Off | Ana Plant</h3>
+                <a href="" class="text">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="deal-card large"
+            style="background-image: url('./assets/deal-zabo.png')"
+          >
+            <div class="deal-content-zabo">
+              <h3 class="text-zabo">25% Off | Zabo Plant</h3>
+              <a href="" class="text">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!--bunch section-->
+      <section class="bunch">
+        <div class="bunch-container display-flex">
+          <h3 class="bunch-text noto-serif">Join the colorful Bunch</h3>
+          <div class="display-flex">
+            <input
+              type="email"
+              placeholder="Write Email"
+              name=""
+              id=""
+              class="bunch-email"
+            />
+            <input type="submit" value="Subscribe" class="bunch-btn inter" />
+          </div>
+        </div>
+      </section>
+      <!--footer all link section-->
+      <section class="all-link-section">
+        <div class="link-text-container">
+          <img src="./assets/logo.png" alt="" class="link-img" />
+          <p class="link-description inter">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
+        </div>
+        <ul class="anchor-container inter">
+          <li><a href="" class="anchor-link">Home</a></li>
+          <li><a href="" class="anchor-link">About Us</a></li>
+          <li><a href="" class="anchor-link">Blog</a></li>
+          <li><a href="" class="anchor-link">FAQ</a></li>
+          <li><a href="" class="anchor-link">Contact Us</a></li>
+          <li><a href="" class="anchor-link">Features</a></li>
+          <li><a href="" class="anchor-link">Pricing</a></li>
+          <li><a href="" class="anchor-link">Privacy Policy</a></li>
+          <li><a href="" class="anchor-link">Terms of Service</a></li>
+          <li><a href="" class="anchor-link">Help Center</a></li>
+        </ul>
+        <div class="logo-container">
+          <img src="./assets/icon-linkedin.png" alt="" class="logo-img" />
+          <img src="./assets/icon-twitter.png" alt="" class="logo-img" />
+          <img src="./assets/icon-facebook.png" alt="" class="logo-img" />
+          <img src="./assets/icon-youtube.png" alt="" class="logo-img" />
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
