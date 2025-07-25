@@ -174,7 +174,6 @@ main {
 }
 
 /* latest deal section */
-/* Base styles */
 .deals-section {
   text-align: center;
 }
@@ -201,20 +200,17 @@ main {
   display: flex;
   gap: 20px;
   width: 1140px;
-  background-color: #f5f9ff;
   font-family: sans-serif;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-/* Left Column */
 .left-column {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Deal Cards */
 .deal-card {
   background-size: cover;
   color: white;
@@ -225,20 +221,15 @@ main {
 }
 
 .deal-card.small {
-  /* width: 250px; */
-  /* height: 150px; */
   width: 367px;
   height: 201px;
 }
 
 .deal-card.large {
-  /* width: 500px; */
-  /* height: 320px; */
   width: 753px;
   height: 423px;
 }
 
-/* Overlay Content */
 .deal-content-zabo .text-zabo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -421,6 +412,7 @@ input::placeholder {
   .plants-lover {
     flex-direction: column;
     margin-top: 41px;
+    margin-bottom: 0;
     gap: 0;
   }
   .plants-lover-img-container,
@@ -434,6 +426,27 @@ input::placeholder {
   }
 
   /* deal style */
+  .deals-container {
+    flex-direction: column;
+  }
+  .deal-card.large {
+    width: 367px;
+    height: 201px;
+  }
+  .deal-content-ana {
+    top: 40%;
+  }
+  .deals-heading {
+    margin-top: 0;
+  }
+
+  .deal-content-zabo {
+    top: 0%;
+  }
+  .deal-card .large {
+    width: 360px;
+    height: 200px;
+  }
 
   /* bunch style */
   .bunch {
